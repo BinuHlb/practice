@@ -1,0 +1,26 @@
+2024-11-27 10:09:23 warning: file_put_contents(/home/ct/Prac/prac/config/Migrations/schema-dump-default.lock): Failed to open stream: No such file or directory
+Trace:
+/home/ct/Prac/prac/vendor/cakephp/migrations/src/Command/DumpCommand.php /home/ct/Prac/prac/vendor/cakephp/migrations/src/Command/DumpCommand.php, line 139
+Migrations\Command\DumpCommand->execute() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 204
+Cake\Console\BaseCommand->run() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 296
+Cake\Console\BaseCommand->executeCommand() /home/ct/Prac/prac/vendor/cakephp/migrations/src/Command/MigrateCommand.php, line 181
+Migrations\Command\MigrateCommand->executeMigrations() /home/ct/Prac/prac/vendor/cakephp/migrations/src/Command/MigrateCommand.php, line 107
+Migrations\Command\MigrateCommand->execute() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 204
+Cake\Console\BaseCommand->run() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 330
+Cake\Console\CommandRunner->runCommand() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() /home/ct/Prac/prac/bin/cake.php, line 10
+[main]
+
+2024-11-27 10:09:49 warning: file_put_contents(/home/ct/Prac/prac/config/Migrations/schema-dump-default.lock): Failed to open stream: No such file or directory
+Trace:
+/home/ct/Prac/prac/vendor/cakephp/migrations/src/Command/DumpCommand.php /home/ct/Prac/prac/vendor/cakephp/migrations/src/Command/DumpCommand.php, line 139
+Migrations\Command\DumpCommand->execute() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 204
+Cake\Console\BaseCommand->run() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 296
+Cake\Console\BaseCommand->executeCommand() /home/ct/Prac/prac/vendor/cakephp/migrations/src/Command/MigrateCommand.php, line 181
+Migrations\Command\MigrateCommand->executeMigrations() /home/ct/Prac/prac/vendor/cakephp/migrations/src/Command/MigrateCommand.php, line 107
+Migrations\Command\MigrateCommand->execute() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 204
+Cake\Console\BaseCommand->run() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 330
+Cake\Console\CommandRunner->runCommand() /home/ct/Prac/prac/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() /home/ct/Prac/prac/bin/cake.php, line 10
+[main]
+
