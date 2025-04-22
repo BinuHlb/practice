@@ -76,90 +76,62 @@
 
     <!-- Services Start -->
     <section id="services" class="py-20">
-        <div class="container">
-            <div class="max-w-2xl mx-auto text-center">
-                <span
-                    class="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Benefits</span>
-                <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">More Than a Tool — A Productivity Partner</h2>
-                <p class="text-base font-medium mt-4 text-muted">Experience seamless collaboration, effortless tracking, and powerful automation — all in one platform designed to elevate your team's performance and keep projects on point.</p>
-            </div>
-
-            <div
-                class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-3 gap-y-6 md:gap-y-12 lg:gap-y-24 md:pt-20 pt-12">
-
-                <div class="text-center">
-                    <div class="flex items-center justify-center">
-                        <div
-                            class="items-center justify-center flex bg-primary/10 rounded-[49%_80%_40%_90%_/_50%_30%_70%_80%] h-20 w-20 border">
-                            <i data-lucide="menu" class="h-10 w-10 text-primary"></i>
-                        </div>
-                    </div>
-                    <h1 class="text-xl font-semibold pt-4">Take complete control of your projects.</h1>
-                    <p class="text-base text-gray-600 mt-2">Manage all projects, tasks, and deadlines from a single platform.  
-Reduce manual effort by streamlining recurring tasks and assignments. 
-Assign tasks, track progress, and communicate easily with the team. 
-</p>
-                </div>
-
-                <div class="text-center">
-                    <div class="flex items-center justify-center">
-                        <div
-                            class="items-center justify-center flex bg-primary/10 rounded-[49%_80%_40%_90%_/_50%_30%_70%_80%] h-20 w-20 border">
-                            <i data-lucide="lightbulb" class="h-10 w-10 text-primary"></i>
-                        </div>
-                    </div>
-                    <h1 class="text-xl font-semibold pt-4">Get access to accurate time and expense tracking.</h1>
-                    <p class="text-base text-gray-600 mt-2">Easily track billable hours and team productivity.  
-Connect time sheets to project costs for proper financial tracking. 
-Get faster insights into expenses, budgets, and resource allocation.  </p>
-                </div>
-
-                <div class="text-center">
-                    <div class="flex items-center justify-center">
-                        <div
-                            class="items-center justify-center flex bg-primary/10 rounded-[49%_80%_40%_90%_/_50%_30%_70%_80%] h-20 w-20 border">
-                            <i data-lucide="bar-chart-big" class="h-10 w-10 text-primary"></i>
-                        </div>
-                    </div>
-                    <h1 class="text-xl font-semibold pt-4">Always be compliant and audit ready. </h1>
-                    <p class="text-base text-gray-600 mt-2">Access detailed audit trails and maintain transparency in projects.  
-Ensure accurate control and permission over the data. 
-With structured workflows, stay aligned with industry standards.  
-</p>
-                </div>
-
-                <div class="text-center">
-                    <div class="flex items-center justify-center">
-                        <div
-                            class="items-center justify-center flex bg-primary/10 rounded-[49%_80%_40%_90%_/_50%_30%_70%_80%] h-20 w-20 border">
-                            <i data-lucide="codepen" class="h-10 w-10 text-primary"></i>
-                        </div>
-                    </div>
-                    <h1 class="text-xl font-semibold pt-4">Keep everyone connected </h1>
-                    <p class="text-base text-gray-600 mt-2">Maintain all project-related communications in one place with centralized discussion boards. 
-Securely share important project files and documents. 
-Be reminded of the deadlines or updates with automated notification alerts. 
-</p>
-                </div>
-
-                <div class="text-center">
-                    <div class="flex items-center justify-center">
-                        <div
-                            class="items-center justify-center flex bg-primary/10 rounded-[49%_80%_40%_90%_/_50%_30%_70%_80%] h-20 w-20 border">
-                            <i data-lucide="shield" class="h-10 w-10 text-primary"></i>
-                        </div>
-                    </div>
-                    <h1 class="text-xl font-semibold pt-4">Gain solutions that adapt to your changing needs. </h1>
-                    <p class="text-base text-gray-600 mt-2">With flexible workflow configuration, adapt your system accordingly. 
-                    Third-party integration helps in connecting with existing tools. </p>
-                </div>
-
-            
-            </div>
-
+    <div class="container">
+        <div class="max-w-2xl mx-auto text-center">
+            <span class="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Benefits</span>
+            <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">The Good Stuff You Can Count On
+            </h2>
+            <p class="text-base font-medium mt-4 text-muted">
+            Reliable, practical benefits that show up in every project, every day.
+            </p>
         </div>
-    </section>
-    <!-- Services End -->
+
+        <div class="grid justify-items-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-3 gap-y-6 md:gap-y-12 lg:gap-y-24 md:pt-20 pt-12">
+            <?php
+            $benefits = [
+                [
+                    'icon' => 'settings',
+                    'title' => 'Take complete control of your projects.',
+                    'description' => 'Manage projects, tasks, and deadlines from one platform. Streamline recurring tasks, assign responsibilities, track progress, and communicate easily with your team.',
+                ],
+                [
+                    'icon' => 'timer',
+                    'title' => 'Get access to accurate time and expense tracking.',
+                    'description' => 'Track billable hours and team productivity easily. Link timesheets to project costs for effective financial tracking and gain quick insights into expenses, budgets, and resource allocation.',
+                ],
+                [
+                    'icon' => 'file-check',
+                    'title' => 'Always be compliant and audit ready.',
+                    'description' => 'Access audit trails for project transparency and maintain data control. Stay aligned with industry standards through structured workflows.',
+                ],
+                [
+                    'icon' => 'network',
+                    'title' => 'Keep everyone connected',
+                    'description' => 'Keep all project communications centralized. Share important files securely and receive automated alerts for deadlines and updates.',
+                ],
+                [
+                    'icon' => 'repeat',
+                    'title' => 'Gain solutions that adapt to your changing needs.',
+                    'description' => 'Flexible workflows allow for easy system adaptation, while third-party integration connects with existing tools.',
+                ],
+                [
+                    'icon' => 'server-cog',
+                    'title' => 'Maintain full control with On-premise deployment',
+                    'description' => 'Keep your data secure and operations compliant with complete control through on-premise hosting.',
+                ],
+            ];
+
+            foreach ($benefits as $benefit) {
+                echo $this->element('benefit_card', $benefit);
+            }
+            ?>
+        </div>
+    </div>
+</section>
+
+
+
+
 
     <!-- Feature Start -->
     <section id="features" class="py-20">
@@ -172,8 +144,9 @@ Be reminded of the deadlines or updates with automated notification alerts. 
 
                 <div class="lg:ms-5 ms-8">
                     <span class="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Features</span>
-                    <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">Core Capabilities That Power Your Practice</h2>
-                    <a href="#"
+                    <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">Everything You Need, Right Where You Need It
+                    </h2>
+                    <a href="/features"
                         class="inline-flex items-center justify-center gap-3 text-sm font-medium text-black mt-6">Learn
                         More
                         <i data-lucide="move-right"></i>
@@ -256,17 +229,14 @@ Be reminded of the deadlines or updates with automated notification alerts. 
     <section id="about" class="py-20">
         <div class="container">
 
-            <div class="grid lg:grid-cols-2 items-center gap-6">
-                <div class="lg:ms-5 ms-8">
+            <div class="flex flex-col lg:flex-row gap-6 items-center">
+                <div class="lg:ms-6 ms-8 lg:basis-[70%] lg:w-[70%]">
                     <div>
-                        <span
-                            class="text-sm text-primary uppercase font-semibold tracking-wider text-default-950">Services</span>
+                        
                     </div>
-                    <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">Get Started In Minutes:
-                        Download The App, Create Your Profile</h2>
-                    <p class="text-base font-normal text-muted mt-6">Digital payment has revolutionized the way we make
-                        financial transactions today With Rible you can enjoy the convenience of making secure &
-                        hassle-free payments online. Our platform provides you with a quick and eary.</p>
+                    <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">The Heart Behind What We D</h2>
+                    <p class="text-base font-normal text-muted mt-6">These are the beliefs that shape our choices, our culture, and how we show up.
+                    </p>
 
                     <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 mt-9">
 
@@ -274,42 +244,39 @@ Be reminded of the deadlines or updates with automated notification alerts. 
                             <div class="flex items-center justify-start">
                                 <div
                                     class="items-center justify-center flex bg-green-50 rounded-full h-20 w-20 border border-dashed border-green-50">
-                                    <i data-lucide="smartphone" class="h-8 w-8 text-black"></i>
+                                    <i data-lucide="target" class="h-8 w-8 text-black"></i>
                                 </div>
                             </div>
-                            <h1 class="text-xl font-semibold pt-6">1. Download</h1>
-                            <p class="text-base text-gray-600 font-normal mt-2">Join the millions already benefitting
-                                from.</p>
+                            <h1 class="text-xl font-semibold pt-6">Mission</h1>
+                            <p class="text-base text-gray-600 font-normal mt-2">Empower teams to manage and track efficiency, performance, and growth.</p>
                         </div>
 
                         <div class="">
                             <div class="flex items-center justify-start">
                                 <div
                                     class="items-center justify-center flex bg-red-50 rounded-full h-20 w-20 border border-dashed border-red-50">
-                                    <i data-lucide="file-text" class="h-8 w-8 text-black"></i>
+                                    <i data-lucide="eye" class="h-8 w-8 text-black"></i>
                                 </div>
                             </div>
-                            <h1 class="text-xl font-semibold  pt-6">2. Set Profile</h1>
-                            <p class="text-base text-gray-600 font-normal mt-2">Join the millions already benefitting
-                                from.</p>
+                            <h1 class="text-xl font-semibold  pt-6">Vision</h1>
+                            <p class="text-base text-gray-600 font-normal mt-2">Revolutionize workflows with scalable, and future-ready project management solutions.</p>
                         </div>
 
                         <div class="">
                             <div class="flex items-center justify-start">
                                 <div
                                     class="items-center justify-center flex bg-primary/10 rounded-full h-20 w-20 border border-dashed border-primary/10">
-                                    <i data-lucide="rocket" class="h-8 w-8 text-black"></i>
+                                    <i data-lucide="shield" class="h-8 w-8 text-black"></i>
                                 </div>
                             </div>
-                            <h1 class="text-xl font-semibold pt-6">3. Start</h1>
-                            <p class="text-base text-gray-600 font-normal mt-2">Join the millions already benefitting
-                                from.</p>
+                            <h1 class="text-xl font-semibold pt-6">Values</h1>
+                            <p class="text-base text-gray-600 font-normal mt-2">User-centric design catered to meet the needs of audit and finance industry.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex items-center">
-                    <img src="/images/mob-app.png" class="h-[600px] rounded-xl mx-auto"
+                <div class="flex items-center lg:basis-[30%] lg:w-[30%]">
+                    <img src="/images/mob-app.png" class="rounded-xl mx-auto"
                         alt="feature-image">
                 </div>
 
@@ -700,26 +667,7 @@ Be reminded of the deadlines or updates with automated notification alerts. 
                                 </div>
                             </div>
 
-                            <div class="swiper-slide">
-                                <div class="p-6 rounded-xl border border-default-200">
-                                    <h3 class="text-xl font-semibold text-default-950">Effortless Collaboration
-                                    </h3>
-                                    <p class="text-base font-normal mt-4 mb-4 text-muted">
-                                    Thanks to the in-built chat and file sharing platform in Praszo Practice, our teams are able to collaborate effortlessly without having to go back and forth to collect data from client. This feature has helped to communicate with clients in real-time.
-
-                                    </p>
-                                    <div class="flex items-center gap-4">
-                                        <!-- <div>
-                                            <img src="/images/user/client-03.jpg" class="h-12 rounded-full"
-                                                alt="">
-                                        </div> -->
-                                        <div>
-                                            <!-- <h3 class="text-lg font-semibold text-primary">Barbara McIntosh</h3>
-                                            <p class="text-sm font-medium mt-1">Senior Software Developer</p> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            
                         </div>
                     </div>
 

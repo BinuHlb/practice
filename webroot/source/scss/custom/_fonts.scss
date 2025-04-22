@@ -2,4 +2,32 @@
 // _fonts.scss
 //
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+    font-family: 'nordiquepro';
+    src: url('/webroot/fonts/fontspring-demo-nordiquepro-light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'nordiquepro';
+    src: url('/webroot/fonts/fontspring-demo-nordiquepro-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'nordiquepro';
+    src: url('/webroot/fonts/fontspring-demo-nordiquepro-semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'nordiquepro';
+    src: url('/webroot/fonts/fontspring-demo-nordiquepro-bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  

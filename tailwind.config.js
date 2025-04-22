@@ -23,7 +23,7 @@ module.exports = {
     },
 
     fontFamily: {
-      dm: ['"DM Sans", sans-serif'],
+      nordique: ['nordiquepro', 'sans-serif'],
     },
 
     extend: {
@@ -36,7 +36,9 @@ module.exports = {
         black: "#000000",
         muted: "#707070",
       },
-
+      fontFamily: {
+        nordique: ['"nordiquepro"', 'sans-serif'], // name must match @font-face
+      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },

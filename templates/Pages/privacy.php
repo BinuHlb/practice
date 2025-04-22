@@ -14,7 +14,7 @@
 
     
     <!-- Faqs Start -->
-    <section class="py-20 bg-gray-50 mt-8">
+    <section class="py-20 bg-gray-50 pt-8">
         <div class="container">
         <div class="max-w-4xl mx-auto px-6 py-12">
     <h1 class="text-4xl font-bold  mb-6">Privacy Policy</h1>
@@ -60,6 +60,8 @@ information in the form of contact details, job title and name of your
 organisation.</p>
 
     <h2 class="text-2xl font-semibold  mt-8 mb-3">Information We Collect</h2>
+    <p>We may collect and process the following types of information only related to this
+    website, we don’t collect personal data inside our mobile applications:</p>
     <ul class="list-disc pl-6 space-y-2 mb-4">
       <li><strong>Personal Information:</strong> Name, email address, phone number, and any other
       information you provide when registering or using our Services.</li>
