@@ -14,7 +14,7 @@
 
     
     <!-- Faqs Start -->
-    <section class="py-20 bg-gray-50 pt-8">
+    <section class="py-20 bg-gray-50 pt-40">
         <div class="container">
         <div class="max-w-4xl mx-auto px-6 py-12">
     <h1 class="text-4xl font-bold  mb-6">Privacy Policy</h1>

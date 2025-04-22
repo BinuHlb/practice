@@ -27,14 +27,27 @@
                     Projects. People. Precision. <span class="text-primary">  </span></h1>
                     <p class="text-base font-medium text-muted leading-7 mt-5 capitalize">Make every task count with smarter project management.</p>
                     <form class="max-w-md mt-5">
+                    <?= $this->Form->create(null, [
+    'url' => ['controller' => 'Subscriptions', 'action' => 'subscribe'],
+    'class' => 'w-full' // optional wrapper class
+]) ?>
   <div class="flex h-12 items-stretch border border-gray-300 rounded-full shadow-sm focus-within:ring-2 focus-within:ring-primary focus-within:border-primary overflow-hidden">
-    <input type="email" name="email" id="email" placeholder="Enter your email"
-      class="flex-1 px-4 text-sm focus:outline-none border-none border-no" required />
+    <?= $this->Form->control('email', [
+        'type' => 'email',
+        'label' => false,
+        'required' => true,
+        'placeholder' => 'Enter your email',
+        'class' => 'flex-1 px-4 text-sm focus:outline-none border-none',
+        'templates' => ['inputContainer' => '{{content}}'] // removes default wrapping div
+    ]) ?>
+
     <button type="submit"
       class="px-5 text-white text-sm bg-primary hover:bg-primaryDark border-l border-primary hover:border-primaryDark transition-all duration-300 font-medium rounded-r-full">
       Subscribe
     </button>
   </div>
+<?= $this->Form->end() ?>
+
 </form>
 
                     <div class="flex flex-wrap items-center justify-center gap-3 lg:justify-normal mt-9">

@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?= ($title) ? h($title) : 'Praszo' ?> | Tailwind App Landing Page Template</title>
-<meta name="description" content="A Fully Responsive Tailwind CSS Template, personal, agency, application, business, clean, creative, it solutions, startup, career, blog, modern, creative, multipurpose, portfolio, saas, software, tailwind css, etc."/>
+<title><?= ($title) ? h($title) : 'Praszo' ?> | Practice</title>
+<meta name="description" content=""/>
 
 <meta name="author" content=""/>
 

@@ -23,7 +23,7 @@ module.exports = {
     },
 
     fontFamily: {
-      nordique: ['nordiquepro', 'sans-serif'],
+      manrope: ['Manrope', 'sans-serif'],
     },
 
     extend: {

@@ -43603,3 +43603,885 @@ Stack Trace:
 - [main]:
 
 Request URL: /fonts/
+2025-04-22 04:17:53 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/lucide/umd/lucide.min.js.map
+2025-04-22 04:17:53 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/jarallax/jarallax.min.js.map
+2025-04-22 04:17:53 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/swiper/swiper-bundle.min.js.map
+2025-04-22 04:19:42 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/lucide/umd/lucide.min.js.map
+2025-04-22 04:19:42 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/jarallax/jarallax.min.js.map
+2025-04-22 04:19:42 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/swiper/swiper-bundle.min.js.map
+2025-04-22 04:22:18 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/lucide/umd/lucide.min.js.map
+2025-04-22 04:22:18 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/jarallax/jarallax.min.js.map
+2025-04-22 04:22:18 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/swiper/swiper-bundle.min.js.map
+2025-04-22 04:24:41 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/lucide/umd/lucide.min.js.map
+2025-04-22 04:24:41 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/jarallax/jarallax.min.js.map
+2025-04-22 04:24:41 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/swiper/swiper-bundle.min.js.map
+2025-04-22 04:24:47 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/lucide/umd/lucide.min.js.map
+2025-04-22 04:24:47 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/jarallax/jarallax.min.js.map
+2025-04-22 04:24:47 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/swiper/swiper-bundle.min.js.map
+2025-04-22 04:24:50 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/lucide/umd/lucide.min.js.map
+2025-04-22 04:24:50 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/jarallax/jarallax.min.js.map
+2025-04-22 04:24:50 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/swiper/swiper-bundle.min.js.map
+2025-04-22 04:25:52 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/lucide/umd/lucide.min.js.map
+2025-04-22 04:25:52 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/jarallax/jarallax.min.js.map
+2025-04-22 04:25:52 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/libs.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/Pages/libs.php`
+- `/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/Pages/libs.php`
+ in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages/libs.php',
+  'paths' => 
+  array (
+    0 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/templates/',
+    1 => '/Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- APP/Controller/PagesController.php:78
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:31
+- [main]:
+
+Request URL: /libs/swiper/swiper-bundle.min.js.map

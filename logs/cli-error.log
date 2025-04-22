@@ -24,3 +24,25 @@ Cake\Console\CommandRunner->runCommand() /home/ct/Prac/prac/vendor/cakephp/cakep
 Cake\Console\CommandRunner->run() /home/ct/Prac/prac/bin/cake.php, line 10
 [main]
 
+2025-04-22 06:04:33 error: [Cake\Database\Exception\DatabaseException] Cannot describe subscriptions. It has 0 columns. in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 118
+Stack Trace:
+- CORE/src/ORM/Table.php:546
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:204
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-22 06:39:04 error: [Cake\Database\Exception\DatabaseException] Cannot describe subscriptions. It has 0 columns. in /Users/binubostin/Downloads/Evea_CakePHP_v1.0.0/Evea/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 118
+Stack Trace:
+- CORE/src/ORM/Table.php:546
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- ROOT/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- CORE/src/Console/BaseCommand.php:204
+- CORE/src/Console/CommandRunner.php:330
+- CORE/src/Console/CommandRunner.php:168
+- ROOT/bin/cake.php:10
+- [main]:
+
