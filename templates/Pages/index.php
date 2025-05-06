@@ -160,7 +160,7 @@
                     <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">Everything You Need, Right Where You Need It
                     </h2>
                     <a href="/features"
-                        class="inline-flex items-center justify-center gap-3 text-sm font-medium text-black mt-6">Learn
+                        class="inline-flex items-center justify-center gap-3 text-sm font-medium text-black mt-6">View
                         More
                         <i data-lucide="move-right"></i>
                     </a>
@@ -176,7 +176,7 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-xl font-semibold">On-Premises Hosting</h4>
+                            <h4 class="text-xl font-semibold">SaaS and On-Premises Hosting</h4>
                             <p class="text-base font-normal text-gray-500 mt-2">Keep data 100% secure with private, compliant server-based deployment.
 
 </p>
@@ -247,7 +247,7 @@
                     <div>
                         
                     </div>
-                    <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">The Heart Behind What We D</h2>
+                    <h2 class="text-3xl md:text-4xl/tight font-semibold text-black mt-4">The Heart Behind What We Do</h2>
                     <p class="text-base font-normal text-muted mt-6">These are the beliefs that shape our choices, our culture, and how we show up.
                     </p>
 
